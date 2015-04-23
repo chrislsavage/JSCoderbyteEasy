@@ -1,14 +1,14 @@
-var longest = "";
-
 function LongestWord(sen) { 
- sen = sen.split(" ");
-
-  for (var i = 0; i<sen.length; i++) {
-    if (sen[i].length > longest.length) {
-   
-    longest = sen[i];
-    }
+  var words = sen.match(/(\w+)/g);
+  var longest = "";
+  console.log(words);
+  for (i=0; i<words.length; i++) {
+      if (words[i].length > longest.length) {
+          longest = words[i];
+      }
   }
+
+  // code goes here  
   return longest; 
          
 }
