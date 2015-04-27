@@ -1,10 +1,10 @@
 function LongestWord(sen) { 
-  var words = sen.match(/(\w+)/g);
+  var words = sen.match(/(\w+)/g);  //splits string into array of word strings
   var longest = "";
-  console.log(words);
-  for (i=0; i<words.length; i++) {
-      if (words[i].length > longest.length) {
-          longest = words[i];
+
+  for (i=0; i<words.length; i++) {  // iterates through word string array
+      if (words[i].length > longest.length) {  //checks if word is longer than current longest word
+          longest = words[i]; // if it is, then replaces longest word
       }
   }
 
