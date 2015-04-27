@@ -1,6 +1,6 @@
 function ABCheck(str) { 
   for (var i = 0; i < str.length; i++) {
-    if (str.charAt(i) == 'a' && str.charAt(i+4) == 'b') return true;
+    if (str.charAt(i) == 'a' && str.charAt(i+4) == 'b') return true;   //checks if the character four spaces ahead is the a or b
     if (str.charAt(i) == 'b' && str.charAt(i+4) == 'a') return true;
   }
   // code goes here  

@@ -1,5 +1,5 @@
 function AlphabetSoup(str) { 
-    str = str.split("").sort().join("");
+    str = str.split("").sort().join("");  //splits the string into an array. Sorts the letters into alphabetical order. Puts them back in a string.
     return str;
 }
 
