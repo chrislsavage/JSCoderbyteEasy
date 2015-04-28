@@ -1,10 +1,8 @@
 function ThirdGreatest(strArr) { 
 strArr.sort(function(a, b){
-  return b.length - a.length; // ASC -> a - b; DESC -> b - a
+  return b.length - a.length; // ASC -> a - b; DESC -> b - a  so in descending order
 });  
-  console.log(strArr);
-  var length = strArr[strArr.length - 1];
-  return length;
+  return strArr[2]   //returns third largest length
 }
    
 // keep this function call here 

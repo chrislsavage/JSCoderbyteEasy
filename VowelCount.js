@@ -2,7 +2,7 @@ var vowels = "aeiou";
 var count = 0;
 function VowelCount(str) { 
 for (i=0; i<str.length; i++) {
-  if (vowels.indexOf(str[i]) != -1) {
+  if (vowels.indexOf(str[i]) != -1) {  //if str[i] is in vowel variable we count up.
   count++;
   }
 }
