@@ -1,11 +1,10 @@
 var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 function SimpleSymbols(str) { 
-  str = str.toUpperCase();
+  str = str.toUpperCase();                  
   for (i=0; i<str.length; i++) {
-      console.log(str[i]);
-    if (alphabet.indexOf(str[i]) != -1) {
+    if (alphabet.indexOf(str[i]) != -1) {  //checks if there is a letter
         console.log(str[i]);
-      if (str[i - 1] === "+" && str[i+1] === "+") {
+      if (str[i - 1] === "+" && str[i+1] === "+") {  //checks if the letter has a plus on either side
         return true;
       }
     }

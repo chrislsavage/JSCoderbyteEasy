@@ -1,5 +1,5 @@
 result=0;
-function SimpleAdding(num) { 
+function SimpleAdding(num) {   //basic loop adding
 
   for (i=1; i<=num; i++) {
      result += i;

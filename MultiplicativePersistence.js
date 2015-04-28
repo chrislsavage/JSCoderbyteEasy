@@ -1,7 +1,7 @@
 function MultiplicativePersistence(num) { 
 var count = 0; 
-      while (num > 9) {
-          total = 1
+      while (num > 9) {  //same as additive persistance only multiplying
+          total = 1 //only change as total needs to start with one instead of 0
           num = num.toString().split("");
   for (var i = 0; i<num.length; i++){
    total *= parseInt(num[i]);
