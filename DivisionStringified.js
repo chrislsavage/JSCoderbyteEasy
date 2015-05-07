@@ -1,5 +1,6 @@
 function DivisionStringified(num1,num2) { 
-var num = Math.round(num1/num2).toString();  //divides and rounds the number to the nearest integer and turns it into a string
+var num = Math.round(num1/num2).toString();  //divides and rounds the number to the nearest integer 
+//and turns it into a string
 var numSplit = num.split(""); //creates a new variable with the integers split into an array of strings
 console.log(numSplit);
 if (num < 1000) {  //no commas needed

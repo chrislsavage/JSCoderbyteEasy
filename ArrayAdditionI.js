@@ -10,11 +10,8 @@ for (var i = 0; i<arr.length; i++) {
 	}
 for (var y = 0; y<arr.length; y++) {
     if (y === maxIndex) { }
-    else { sum = sum + arr[y];}
-    
+    else { sum = sum + arr[y];}   
 }
-console.log(maxNum);
-console.log(sum);
 return (sum === maxNum);
 }
    
