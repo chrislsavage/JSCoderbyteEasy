@@ -1,5 +1,5 @@
 function ABCheck(str) { 
-  for (var i = 0; i < str.length; i++) {
+  for (var i = 0; i < str.length; i= i + 1) {
     if (str.charAt(i) == 'a' && str.charAt(i+4) == 'b') return true;   //checks if the character four spaces ahead is the a or b
     if (str.charAt(i) == 'b' && str.charAt(i+4) == 'a') return true;
   }
@@ -11,3 +11,6 @@ function ABCheck(str) {
 // keep this function call here 
 // to see how to enter arguments in JavaScript scroll down
 ABCheck(readline());   
+
+"acuojtbpoia"
+ 012345678910

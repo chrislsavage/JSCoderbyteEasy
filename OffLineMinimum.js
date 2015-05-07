@@ -12,15 +12,15 @@ var line = [];
 var offLine = [];
 for (var i = 0;  i < strArr.length; i++) {   //iterate through array
     if (strArr[i] === "E") {                 //if parameter to check for "E"
-        line = strArr.slice(0,i+1).sort();   // if E is present sort the array up to the "E" and add to line variable
+        line = strArr.slice(0,i).sort();   // if E is present sort the array up to the "E" and add to line variable
         offLine += line[0];                  //pulls the lowest integer from array and stores it in offLine
         var index = strArr.indexOf(line[0]); //finds the index location of the lowest integer
         strArr.splice(index,1);              //removes integer from strArr
         i--;                                 // moves loop back one in order to take into account the integer that was removed
         } 
     }
-    offLine = offLine.split("").join(",");  // splits array into strings and joins using comma
-         return offLine.split().join(',');
+  return offLine.split("").join(",");  // splits array into strings and joins using comma
+         
 }
    
 // keep this function call here 
